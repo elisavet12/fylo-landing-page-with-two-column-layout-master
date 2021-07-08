@@ -79,6 +79,7 @@ header {
   background-color: var(--Desaturated-Blue);
   height: 328px;
   align-items: center;
+  display: flex;
 }
 
 .section-three-column_one {
@@ -91,4 +92,38 @@ header {
 
 footer {
   background-color: var(--Very-Dark-Blue);
+  height: 386px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-col-one {
+  display: flex;
+  flex-direction: column;
+  margin: 211px;
+}
+
+.footer-col-two {
+  display: flex;
+  margin-right: 197px;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-three {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 50%;
 }
