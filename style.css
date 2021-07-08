@@ -7,33 +7,82 @@
   --Light-Gray: hsl(0, 0%, 75%);
 }
 
+body {
+  margin-left: 76px;
+  margin-right: 76px;
+  font-family: "Open Sans";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav-elements {
+  margin: 55px;
+  text-decoration-line: none;
+  color: var(--Very-Dark-Blue);
+}
+
 .container {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 50% 50%;
-  margin: auto;
-  align-items: center;
+
+  grid-template-columns: 100%;
 }
 
 .section-one {
   background-color: var(--Light-Grayish-Blue);
   display: flex;
+  align-items: center;
+  margin-bottom: 197px;
+  height: 512px;
 }
 .section-one-column_one {
   display: flex;
   flex-direction: column;
+  flex-basis: 50%;
+  margin-right: 50px;
+}
+
+.form-button {
+  width: 196px;
+  height: 44px;
 }
 
 .section-one-column_two {
   display: flex;
+  flex-basis: 50%;
+}
+
+.image-one {
+  max-width: 50%;
 }
 
 .section-two {
   background-color: hsl(0, 0%, 75%);
+  display: flex;
+  margin-bottom: 104px;
+}
+
+.section-two-column_one {
+}
+
+.section-two-column_two {
+}
+
+.image-two {
+  max-width: 50%;
 }
 
 .section-three {
   background-color: var(--Desaturated-Blue);
+  height: 328px;
+  align-items: center;
+}
+
+.section-three-column_one {
+  flex-basis: 50%;
 }
 
 .section-four {
@@ -42,11 +91,4 @@
 
 footer {
   background-color: var(--Very-Dark-Blue);
-}
-.image-one {
-  width: 30%;
-}
-
-.image-two {
-  width: 30%;
 }
