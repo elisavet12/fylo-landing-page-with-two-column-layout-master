@@ -17,10 +17,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Raleway";
+  color: var(--Very-Dark-Blue);
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .topnav-elements {
-  margin: 55px;
+  margin-left: 55px;
   text-decoration-line: none;
   color: var(--Very-Dark-Blue);
 }
@@ -32,16 +36,14 @@ header {
 }
 
 .section-one {
-  background-color: var(--Light-Grayish-Blue);
   display: flex;
+  flex: 1;
   align-items: center;
-  margin-bottom: 197px;
-  height: 512px;
 }
 .section-one-column_one {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
+
   margin-right: 50px;
 }
 
@@ -52,38 +54,86 @@ header {
 
 .section-one-column_two {
   display: flex;
-  flex-basis: 50%;
 }
 
 .image-one {
-  max-width: 50%;
+  width: 100%;
+}
+
+.info-title {
+  font-family: "Raleway";
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--Very-Dark-Blue);
+}
+
+.info-excerpt1 {
+  font-size: 18px;
+  color: var(--Very-Dark-Blue);
+  font-weight: 700;
+  width: 56ch;
 }
 
 .section-two {
-  background-color: hsl(0, 0%, 75%);
   display: flex;
-  margin-bottom: 104px;
+  flex: 1;
 }
 
 .section-two-column_one {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.box {
+  font-size: 14px;
+  color: var(--Very-Dark-Blue);
+  width: 38ch;
+  padding: 56px 42px 30px 42px;
+  line-height: 1.7;
+  box-shadow: 1px 3px 5px 5px var(--Light-Gray);
+}
+
+.info-excerpt2 {
+  font-size: 18px;
+  color: var(--Very-Dark-Blue);
+  font-weight: 700;
+  width: 57ch;
 }
 
 .section-two-column_two {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .image-two {
-  max-width: 50%;
+  width: 70%;
 }
 
 .section-three {
   background-color: var(--Desaturated-Blue);
-  height: 328px;
+  color: var(--Light-Gray);
   align-items: center;
   display: flex;
+  flex: 1;
+  margin-left: -76px;
+  margin-right: -76px;
+  padding: 89px;
 }
 
 .section-three-column_one {
-  flex-basis: 50%;
+  width: 100%;
+}
+
+.info-excerpt3 {
+  font-size: 18px;
+
+  font-weight: 700;
+  width: 48ch;
+}
+
+.info-excerpt .section-three-column_two {
+  width: 100%;
 }
 
 .section-four {
@@ -92,18 +142,19 @@ header {
 
 footer {
   background-color: var(--Very-Dark-Blue);
-  height: 386px;
+  margin-left: -76px;
+  margin-right: -76px;
+  padding: 89px;
 }
 
 .footer-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .footer-col-one {
   display: flex;
   flex-direction: column;
-  margin: 211px;
 }
 
 .footer-col-two {
